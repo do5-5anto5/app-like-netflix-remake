@@ -1,10 +1,11 @@
-package com.do55anto5.netflixremake
+package com.do55anto5.netflixremake.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.do55anto5.netflixremake.R
 import com.do55anto5.netflixremake.model.Movie
 
 //horizontal list
@@ -27,7 +28,9 @@ class MovieAdapter(private val movies: List<Movie>): RecyclerView.Adapter<MovieA
     inner class MovieViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         fun bind(movie: Movie) {
             val imageCover: ImageView = itemView.findViewById(R.id.img_cover)
-            imageCover.setImageResource(movie.coverUrl)
+
+//            TODO: here will be an URL from server
+//            imageCover.setImageResource(movie.coverUrl)
         }
     }
 

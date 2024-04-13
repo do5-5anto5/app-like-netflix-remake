@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.do55anto5.netflixremake.adapters.CategoryAdapter
 import com.do55anto5.netflixremake.model.Category
 import com.do55anto5.netflixremake.model.Movie
 
