@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NetflixRemake</string>
+    <string name="movie_description">Lorem ipsum dolor sit amet. Quo adipisci commodi eum tempore
+        voluptatem aut similique porro aut dolor placeat in obcaecati aperiam cum officia deserunt
+        vel rerum repellat. Qui molestias reprehenderit et nihil consequuntur et asperiores beatae
+        et ratione quaerat qui rerum culpa qui dolor velit ea eveniet incidunt. Sed voluptate
+        delectus cum excepturi nihil et rerum repellat qui quisquam dolor aut eaque itaque et
+        perferendis eaque ut eaque accusamus.</string>
+    <string name="cast">Elenco: %1$s</string>
+    <string name="similar">Opções semelhantes</string>
 </resources>
